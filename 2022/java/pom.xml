@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+$Id: pom.xml 1 2019-01-07 01:12:37Z bob $
+Author: Bob Allison
+-->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+              http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>2022</artifactId>
+    <version>1</version>
+    <packaging>jar</packaging>
+    
+    <parent>
+        <groupId>bob.aoc</groupId>
+        <artifactId>parent</artifactId>
+        <version>1</version>
+        <relativePath>../../parent</relativePath>
+    </parent>
+
+    <name>Advent of Code 2022</name>
+    <description>Java classes to solve the AoC problems</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>bob.aoc</groupId>
+            <artifactId>common</artifactId>
+            <version>1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+    
+    <properties>
+        <appArgs>sample</appArgs>
+    </properties>
+    
+    <profiles>
+        <profile>
+            <id>useRealInput</id>
+            <properties>
+                <appArgs>real</appArgs>
+            </properties>
+        </profile>
+    </profiles>
+</project>

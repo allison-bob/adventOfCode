@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: bob.algorithm.graphSearch.BreadthFirstTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s - in bob.algorithm.graphSearch.BreadthFirstTest

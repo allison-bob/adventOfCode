@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: bob.data.coordinate.Mapper3DTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s - in bob.data.coordinate.Mapper3DTest
